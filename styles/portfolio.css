@@ -1,0 +1,275 @@
+.open-sans-normal {
+  font-family: 'Open Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: 'width' 100;
+}
+/* share style */
+
+:root {
+  --dark-1: #181818;
+  --dark-2: #474747;
+  --dark-3: #757575;
+  --background-color: #fff8f3;
+}
+
+.text-primary {
+  color: #fd6e0a;
+}
+.dark-1 {
+  color: #181818;
+}
+.dark-2 {
+  color: #474747;
+}
+.dark-3 {
+  color: #757575;
+}
+.secondary-bg {
+  background-color: #fff8f3;
+}
+.btn-primary {
+  color: white;
+  background-color: #fd6e0a;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 18px 35px;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+}
+
+/* Nav Style */
+.header {
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 150px;
+}
+nav h2 {
+  font-weight: 800;
+  font-size: 45px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+nav ul li {
+  margin-right: 50px;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Banner Style */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px 0 150px;
+}
+.banner-content {
+  width: 580px;
+}
+.banner .banner-greeting {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.banner .banner-title {
+  font-size: 85px;
+  font-weight: 700;
+}
+.banner-description {
+  font-size: 18px;
+  font-weight: 400;
+}
+.banner-profile-pic {
+  width: 580px;
+}
+/* Main style */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* About */
+
+.about {
+  border-radius: 10px;
+  padding: 130px 150px;
+  margin-top: 130px;
+  text-align: center;
+  margin-bottom: 130px;
+}
+.about-title {
+  font-size: 35px;
+  font-weight: 700;
+}
+.about-description {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* About Items */
+.about-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-title {
+  color: var(--dark-3);
+}
+.item-description {
+  color: var(--dark-2);
+  font-size: 20;
+  font-weight: 700;
+}
+
+/* Skills */
+.skill {
+  margin: 0 auto;
+}
+.skill-do {
+  color: var(--dark-1);
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+.skill-do-description {
+  text-align: center;
+  color: var(--dark-3);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  width: 910px;
+  margin: 0 auto 50px;
+}
+
+/* Skills Items */
+.skill-items {
+  display: flex;
+  justify-content: space-around;
+}
+.skill-item {
+  width: 267px;
+  height: 377px;
+  border-radius: 5px;
+  box-shadow: 0 6px 50px rgba(0, 0, 0, 6%);
+}
+.skill-item-pic {
+  width: 44px;
+  padding: 30px 0 20px 30px;
+}
+.skill-item-title {
+  color: var(--dark-1);
+  font-size: 20;
+  font-weight: 700;
+  padding: 0 30px 20px 30px;
+}
+.skill-item-description {
+  color: var(--dark-3);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 30px 20px 30px;
+}
+
+/* Resume Style */
+.resume-title {
+  color: var(--dark-1);
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 130px;
+}
+.resume-container {
+  display: flex;
+  gap: 24px;
+}
+.resume-column-title {
+  color: var(--dark-2);
+  font-size: 30px;
+  font-weight: 700;
+}
+.experience-title {
+  color: var(--dark-2);
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
+}
+.experience-details {
+  color: var(--dark-3);
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.experience-description {
+  color: var(--dark-3);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.resume-download {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 113px;
+}
+
+/* Footer Style */
+footer {
+  margin: 0 auto;
+  background-color: var(--background-color);
+}
+.footer-content {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+.footer-column {
+  margin-top: 130px;
+}
+.footer-connect {
+  color: var(--dark-1);
+  font-size: 35px;
+  font-weight: 700;
+}
+.footer-connect-description {
+  color: var(--dark-2);
+  font-size: 16px;
+  font-weight: 400;
+  width: 562px;
+}
+.footer-icon a img {
+  margin-right: 20px;
+}
+
+input {
+  display: block;
+  margin-bottom: 24px;
+  padding: 18px 30px;
+  width: 460px;
+  border-radius: 10px;
+}
+textarea {
+  display: block;
+  margin-bottom: 24px;
+  padding: 18px 30px;
+  width: 460px;
+  height: 180px;
+  border-radius: 10px;
+}
+.footer-button {
+  margin-bottom: 130px;
+}
